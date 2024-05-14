@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>色相调整</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/main.js" async defer type="module"></script>
+</head>
+<body>
+<header>
+    <h1>色相调整</h1>
+</header>
+<div id="init">
+    <form class="form-container">
+        <label for="select-color" class="form-title">初始颜色</label>
+        <br>
+        <input type="color" name="select-color" id="select-color">
+        <br><br>
+        <label for="angle" class="form-title">旋转角</label>
+        <br>
+        <input type="number" name="angle" id="angle" class="form-input">
+        <br>
+        <input type="submit" value="计算" class="form-button">
+        <br>
+    </form>
+</div>
+<div id="result">
+    <form class="form-container">
+        <label for="result-color" class="form-title">计算结果</label>
+        <br>
+        <input type="color" name="result-color" id="result-color">
+    </form>
+</div>
+</body>
+</html>
